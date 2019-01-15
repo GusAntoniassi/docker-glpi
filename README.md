@@ -58,6 +58,8 @@ docker-compose up
 Access your container with HTTP.
 Use infos you setup in glpi.env file
 
+Database host should be "mysql", or the same name defined in `docker-compose.yml`
+
 ![alt tag](https://raw.githubusercontent.com/driket/docker-glpi/master/doc/glpi-db-setup.png)
 
 ## FAQ
