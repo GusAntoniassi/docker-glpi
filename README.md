@@ -85,3 +85,10 @@ GLPI_SOURCE_URL=https://forge.glpi-project.org/attachments/download/2020/glpi-0.
 
 - Run ```docker-compose build```
 - Run ```docker-compose up```
+
+
+
+### Install chat iframe
+
+- Edit html.class.php with Azure secret key
+- ```docker cp ./html.class.php dockerglpi_glpi_1:/var/www/html/glpi/inc/html.class.php
